@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
-import section1 from "../../assets/images/section1.png";
+import section1 from "../../assets/images/section1.gif";
 // import dscjiit from "../../images/dscjiit.png";
 import Box from "@material-ui/core/Box";
 import { Typography } from "@material-ui/core";

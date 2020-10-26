@@ -3,5 +3,10 @@
 }
 .whyus{
     color: #0C2B5B;
-    font-size: 40px;
+    font-size: 60px;
+    margin-left: 15vh;
+}
+.whyustag{
+    font-size: 20px;
+    margin-left: 15vh;
 }

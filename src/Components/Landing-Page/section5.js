@@ -18,7 +18,7 @@ export default function Section5() {
           <Grid item sm={12} md={6} lg={6}>
             <img
               width="60%"
-              data-aos="fade-top"
+              data-aos="zoom-in"
               className="first-image"
               src={section5img}
               alt="searching"
@@ -35,26 +35,28 @@ export default function Section5() {
                 <Container>
                   <Typography component="p" variant="body1" align="left">
                   <span className="contactus">Contact Us</span>
-                    <br/><br/>
+                  <div className="contact-icons">
+                    
                     <img
+                    width='10%'
                     className="first-image"
                     src={facebook}
                     alt="facebook"
                     />
                     <img
-                    width='8%'
-                    className="first-image"
+                    width='10%'
+                    className="second-image"
                     src={twitter}
                     alt="facebook"
                     />
                     <img
-                    width='8%'
-                    className="first-image"
+                    width='10%'
+                    className="third-image"
                     src={googleplus}
                     alt="facebook"
                     />
                     <br/>
-                    
+                    </div>
                   </Typography>
                 </Container>
               </Box>

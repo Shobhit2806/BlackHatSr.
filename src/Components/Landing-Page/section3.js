@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
-import section3img from "../../assets/images/section3.png";
+import section3img from "../../assets/images/section3.gif";
 // import dscjiit from "../../images/dscjiit.png";
 import Box from "@material-ui/core/Box";
 
@@ -44,7 +44,7 @@ const Section3 = () => {
           <Grid item sm={12} md={6} lg={6}>
             <img
               width="50%"
-              data-aos="fade-top"
+              data-aos="fade-right"
               className="first-image"
               src={section3img}
               alt="searching"

@@ -4,5 +4,26 @@
 
 .contactus{
     color: #0C2B5B;
-    font-size: 40px;
+    font-size: 60px;
+    margin-left: 10vh;
+    
+}
+
+.contact-icons{
+    position: relative;
+    left:14vh;
+    top: 3vh;
+
+    
+    
+}
+
+.second-image{
+    position: absolute;
+    left:15vh;
+    
+}
+.third-image{
+    position: absolute;
+    left:30vh;
 }

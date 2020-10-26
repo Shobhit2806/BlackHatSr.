@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../common/Navbar'
+import Appbar from '../common/Navbar'
 import Footer from './Footer'
 import Section1 from './section1'
 import Section2 from './section2'
@@ -10,7 +10,7 @@ import Section5 from './section5'
 export const Home = () => {
     return (
         <div>
-            <Navbar />
+            <Appbar />
             <Section1 />
             <Section2/>
             <Section3 />

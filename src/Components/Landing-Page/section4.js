@@ -44,8 +44,9 @@ export default function Section4() {
                 <Box mt={12}>
                   <Container>
                     <Typography component="p" variant="body1" align="left">
-                    <span className="whyus">Why Us?</span>
+                    <span className="whyus" data-aos="zoom-in-up">Why Us?</span>
                     </Typography>
+                    <div className="whyustag">
                   <Card className={classes.root}>
                     <CardContent>
                       <Typography className={classes.title} color="black" gutterBottom>
@@ -56,6 +57,8 @@ export default function Section4() {
                     </CardContent>
       
                   </Card>
+                  </div>
+                  
    
                   </Container>
                 </Box>  
@@ -64,7 +67,7 @@ export default function Section4() {
             <Grid item sm={12} md={6} lg={6}>
               <img
                 width="60%"
-                data-aos="fade-top"
+                data-aos="fade-up-left"
                 className="first-image"
                 src={section4img}
                 alt="searching"
