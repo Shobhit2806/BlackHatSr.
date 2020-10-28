@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
 import './Navbar.css'
 //import logo from './images/logo.svg'
@@ -18,8 +18,8 @@ function Appbar () {
      
     </Nav>
     <Nav>
-      <Nav.Link href="#deets"><span className="navbar-content">Login</span></Nav.Link>
-      <Nav.Link href="#deets"><span className="navbar-content">Signup</span></Nav.Link>
+      <Nav.Link href="/login"><span className="navbar-content">Login</span></Nav.Link>
+      <Nav.Link href="/signup"><span className="navbar-content">Signup</span></Nav.Link>
       
     </Nav>
   </Navbar.Collapse>

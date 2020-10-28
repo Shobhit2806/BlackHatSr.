@@ -1,0 +1,23 @@
+body{
+    background-color: #F0FAF9;
+}
+.container{
+    margin-top: 45px;
+    background-color: white;
+    width: 50%;
+    border-radius: 4%;
+    box-shadow: 5px 5px 5px #cacaca;
+}
+.img-fluid{
+    
+    margin-top: 11vh;
+    left: 2vh;
+}
+.form-fields{
+    
+    width: 80%;
+    margin-left: 10vh;
+}
+.sectiontext{
+    
+}
