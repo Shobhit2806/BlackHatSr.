@@ -16,7 +16,9 @@ AOS.init();
 function App() {
   return (
     <div className="App">
-      
+      <div className="SS">
+      shassasasa
+      </div>
      <Router>
         <Switch>
           <Route path='/' exact component={Home}/>
@@ -28,6 +30,7 @@ function App() {
      </Router>
       
     </div>
+    
   );
 }
 
