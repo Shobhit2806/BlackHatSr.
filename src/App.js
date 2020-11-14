@@ -1,4 +1,6 @@
 import './App.css';
+import Dum from './beginner';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,9 +18,7 @@ AOS.init();
 function App() {
   return (
     <div className="App">
-      <div className="SS">
-      shassasasa
-      </div>
+      
      <Router>
         <Switch>
           <Route path='/' exact component={Home}/>
@@ -27,7 +27,9 @@ function App() {
           
 
         </Switch>
-     </Router>
+  </Router>
+  
+   
       
     </div>
     
