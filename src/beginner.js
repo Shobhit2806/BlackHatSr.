@@ -1,5 +1,6 @@
 
 import React from 'react';
+import './beginer.css'
 import Nee from './nee';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'; 
 import img1 from "./assets/images/img1.jpg";
@@ -59,17 +60,18 @@ export default function Dum() {
   };
 
   return (
-    <Container className={classes.root}>
-    <Grid container spacing={4}>
-    <Grid item sm={4}>
-    <Card>
+    <div className="ssss">
+    <Container className={classes.root} >
+    <Grid container spacing={4} >
+    <Grid item sm={4}  >
+    <Card className="card1">
       
       <CardMedia
       component="img"
       alt="Beginner"
       height="350"
       image={img1}
-      title="Contemplative Reptile"
+      title="Beginner"
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
@@ -112,7 +114,7 @@ export default function Dum() {
     </Card>
     </Grid>
     <Grid item sm={4}>
-    <Card>
+    <Card className="card2">
       
       <CardMedia
       component="img"
@@ -162,7 +164,7 @@ export default function Dum() {
     </Card>
     </Grid>
     <Grid item sm={4}>
-    <Card>
+    <Card className="card3">
       
       <CardMedia
       component="img"
@@ -213,5 +215,6 @@ export default function Dum() {
     </Grid>
     </Grid>
     </Container>
+    </div>
   );
 }
