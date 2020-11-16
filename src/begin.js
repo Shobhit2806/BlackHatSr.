@@ -121,7 +121,6 @@ export default function CustomizedTables() {
       <div>
       <Temp />
       </div>
-      <div><a href={"nee.js"}>assa</a></div>
       <div className="Array">&nbsp;&nbsp;&nbsp;
       <b>1. Array </b>
       </div><br/>
