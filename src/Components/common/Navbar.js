@@ -22,6 +22,7 @@ function Appbar () {
       <Nav.Link href="/signup"><span className="navbar-content">Signup</span></Nav.Link>
       
     </Nav>
+    
   </Navbar.Collapse>
 </Navbar>
 </div>

@@ -1,0 +1,182 @@
+.section1-main{
+    background-color: #0C2B5B;
+}
+.welcometext{
+    color:#DAF2EC;
+    font-size: 40px;
+    
+}
+.sw{
+  
+}
+.Title1text{
+    color:#FDCC95;
+    font-size: 40px;
+}
+.welcometagline{
+    color: white;
+}
+.tblc2{
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 90px;
+}
+.tblc3{
+  background-color: white;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 90px;
+}
+.tblc4{
+  background-color: white;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 90px;
+}
+.tblc5{
+  background-color: white;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 90px;
+}
+.tblc6{
+  background-color: white;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 90px;
+}
+.tblc7{
+  background-color: white;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 90px;
+}
+.apbr{
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.Array{
+    background-color: rgb(14, 165, 165);
+    margin-left: 80px;
+    margin-right: 1070px;
+    font-size: 30px;
+    text-align: left;
+    border-radius: 8px;
+}
+.Sorting{
+  background-color: rgb(14, 165, 165);
+  margin-left: 80px;
+  margin-right: 1070px;
+  font-size: 30px;
+  text-align: left;
+  border-radius: 8px;
+}
+.Hashing{
+  background-color: rgb(14, 165, 165);
+  margin-left: 80px;
+  margin-right: 1070px;
+  font-size: 30px;
+  text-align: left;
+  border-radius: 8px;
+}
+.String{
+  background-color: rgb(14, 165, 165);
+  margin-left: 80px;
+  margin-right: 1070px;
+  font-size: 30px;
+  text-align: left;
+  border-radius: 8px;
+}
+.trees{
+  background-color: rgb(14, 165, 165);
+  margin-left: 80px;
+  margin-right: 1070px;
+  font-size: 30px;
+  text-align: left;
+  border-radius: 8px;
+}
+.numth{
+  background-color: rgb(14, 165, 165);
+  margin-left: 80px;
+  margin-right: 900px;
+  font-size: 30px;
+  text-align: left;
+  border-radius: 8px;
+}
+.bt1 {
+    background-color: #4CAF50; 
+    
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 16px;
+  }
+  .bt2 {
+    background-color: #4CAF50; 
+    
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 16px;
+  }
+  .bt3 {
+    background-color: #4CAF50; 
+    
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 16px;
+  }
+  .bt4 {
+    background-color: #4CAF50; 
+    
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 16px;
+  }
+  .bt5 {
+    background-color: #4CAF50; 
+    
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 16px;
+    
+  }
+  .bt5:hover {
+    background-color:blue; 
+    color: white;
+  }
+  .bt4:hover {
+    background-color:blue; 
+    color: white;
+  }
+  .bt3:hover {
+    background-color:blue; 
+    color: white;
+  }
+  .bt2:hover {
+    background-color:blue; 
+    color: white;
+  }
+  .bt1:hover {
+    background-color:blue; 
+    color: white;
+  }
+
+
+  /*    /////////////////////////////////////////    */
+ 

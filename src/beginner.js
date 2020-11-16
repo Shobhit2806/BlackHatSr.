@@ -1,6 +1,10 @@
 
 import React from 'react';
 import './beginer.css'
+import Dmm from './userprof'
+import Appbar from './Components/common/Navbar'
+import Footer from './Components/Landing-Page/Footer'
+import Section1 from './Components/Landing-Page/section1'
 import Nee from './nee';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'; 
 import img1 from "./assets/images/img1.jpg";
@@ -29,9 +33,13 @@ const useStyles = makeStyles((theme) => ({
   root: {
     width: "100vw",
     height: "100vh",
-    backgroundColor : theme.palette.grey[200],
-    paddingTop: theme.spacing(9)
+    
+    paddingTop: theme.spacing(9),
+      
+        alignItems: 'center',
+        justifyContent: 'center',
   },
+  
   media: {
     height: 0,
     paddingTop: '56.25%', // 16:9
@@ -60,7 +68,11 @@ export default function Dum() {
   };
 
   return (
+    
     <div className="ssss">
+    <Appbar />
+    <Section1 />
+    <Dmm />
     <Container className={classes.root} >
     <Grid container spacing={4} >
     <Grid item sm={4}  >
@@ -69,13 +81,13 @@ export default function Dum() {
       <CardMedia
       component="img"
       alt="Beginner"
-      height="350"
+      height="300"
       image={img1}
       title="Beginner"
       />
-      <CardContent>
+      <CardContent className="crdcnt">
         <Typography variant="body2" color="textSecondary" component="p">
-         <h3> Beginner </h3>
+         <h3 className="hd1"> Beginner </h3>
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -118,14 +130,14 @@ export default function Dum() {
       
       <CardMedia
       component="img"
-      alt="Contemplative Reptile"
-      height="350"
+      alt="Intermediate"
+      height="300"
       image={img2}
-      title="Contemplative Reptile"
+      title="Intermediate"
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-         <h3> Intermediate </h3>
+         <h3 className="hd2"> Intermediate </h3>
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -168,14 +180,14 @@ export default function Dum() {
       
       <CardMedia
       component="img"
-      alt="Contemplative Reptile"
-      height="350"
+      alt="Advanced"
+      height="300"
       image={img3}
-      title="Contemplative Reptile"
+      title="Advanced"
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-         <h3> Advanced </h3>
+         <h3 className="hd3"> Advanced </h3>
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -205,8 +217,7 @@ export default function Dum() {
         <CardContent>
           
           <Typography paragraph>
-            This is the section for some basic practice problems which are ordered topic-wise
-            so that the new students can have a clear cut view over the foremost topics. 
+            It is the advanced section where problems are recommended according to
           </Typography>
           
         </CardContent>
@@ -215,6 +226,7 @@ export default function Dum() {
     </Grid>
     </Grid>
     </Container>
+    <div className="foot"><Footer /></div>
     </div>
   );
 }

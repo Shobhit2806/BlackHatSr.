@@ -11,4 +11,18 @@
 .card3:hover{
     transform:scale(1.1)
 ;}
+.hd1{
+    color : green;
+;}
+.hd2{
+    color : blue;
+;}
+.hd3{
+    color : red;
+;}
+.foot{
+    background-color: white;
+}
+
+
 
