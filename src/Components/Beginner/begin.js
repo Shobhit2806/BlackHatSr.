@@ -1,7 +1,6 @@
 import React from 'react'
-import Appbar from './Components/common/Navbar'
-import Footer from './Components/Landing-Page/Footer'
-import Section1 from './Components/Landing-Page/section1'
+import Appbar from '../common/Navbar'
+import Footer from '../Landing-Page/Footer'
 import { withStyles, makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -112,7 +111,7 @@ const StyledTableCell = withStyles((theme) => ({
   });
 
 
-export default function CustomizedTables() {
+export default function Beginner() {
   const classes = useStyles();
 
   return (

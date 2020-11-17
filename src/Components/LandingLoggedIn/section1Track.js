@@ -1,12 +1,12 @@
 import React from 'react'
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
-import section2img from "./assets/images/blch.png";
+import section2img from "../../assets/images/img5.png";
 // import dscjiit from "../../images/dscjiit.png";
 import Box from "@material-ui/core/Box";
 import { Typography } from "@material-ui/core";
-import './temp.css'
-export default function Temp() {
+import './section1Track.css'
+export default function section1Track() {
     return (
         <div className="section2-main">
         <Box className="mt-9">
@@ -22,9 +22,9 @@ export default function Temp() {
                 <Box mt={2}>
                   <Container>
                     <Typography component="p" variant="body1" align="left">
-                     <span className="cn1" data-aos="zoom-in-up">Beginner !</span>
+                     <span className="cn1" data-aos="zoom-in-up">Welcome !</span>
                      <br/>
-                     <span className="cnn1">Welcome to the beginner section where you will be able <br/><span className="cnn1">find topic wise important problems related to DSA</span> </span>
+                     <span className="cnn1">Time to get started with some really cool and helpful <br/><span className="cnn1">problem solving stuff</span> </span>
                     </Typography>
                   </Container>
                 </Box>
@@ -41,7 +41,7 @@ export default function Temp() {
             </Grid>
           </Grid>
         </Box>
-        <br/><br/>
+        <br/><br/><br/><br/><br/>
       </div>
     )
 }

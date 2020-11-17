@@ -1,15 +1,12 @@
 
 import React from 'react';
-import './beginer.css'
-import Dmm from './userprof'
-import Appbar from './Components/common/Navbar'
-import Footer from './Components/Landing-Page/Footer'
-import Section1 from './Components/Landing-Page/section1'
-import Nee from './nee';
+import './choosetrack.css'
+import Appbar from '../common/Navbar'
+import Footer from '../Landing-Page/Footer'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'; 
-import img1 from "./assets/images/img1.jpg";
-import img2 from "./assets/images/img2.png";
-import img3 from "./assets/images/img3.jpg";
+import img1 from "../../assets/images/img1.jpg";
+import img2 from "../../assets/images/img2.png";
+import img3 from "../../assets/images/img3.jpg";
 import { makeStyles } from '@material-ui/core/styles';
 import clsx from 'clsx';
 import Card from '@material-ui/core/Card';
@@ -59,7 +56,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Dum() {
+export default function ChooseTrack() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -71,12 +68,11 @@ export default function Dum() {
     
     <div className="ssss">
     <Appbar />
-    <Section1 />
-    <Dmm />
+    <section1Track />
     <Container className={classes.root} >
     <Grid container spacing={4} >
     <Grid item sm={4}  >
-    <Card className="card1">
+    <Link to="/beginner"><Card className="card1">
       
       <CardMedia
       component="img"
@@ -92,16 +88,7 @@ export default function Dum() {
       </CardContent>
       <CardActions disableSpacing>
         
-      <Button size="small" color="primary">
-      <Router>
-      <Link to="/visit">Visit</Link>
-      <Switch> 
-              
-              <Route exact path='/visit' component={Nee}></Route> 
-            </Switch> 
-      </Router>
       
-    </Button>
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -123,7 +110,7 @@ export default function Dum() {
           
         </CardContent>
       </Collapse>
-    </Card>
+    </Card></Link>
     </Grid>
     <Grid item sm={4}>
     <Card className="card2">
@@ -142,16 +129,7 @@ export default function Dum() {
       </CardContent>
       <CardActions disableSpacing>
         
-      <Button size="small" color="primary">
-      <Router>
-      <Link to="/visit">Visit</Link>
-      <Switch> 
-              
-              <Route exact path='/visit' component={Nee}></Route> 
-            </Switch> 
-      </Router>
-      
-    </Button>
+     
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -192,16 +170,7 @@ export default function Dum() {
       </CardContent>
       <CardActions disableSpacing>
         
-      <Button size="small" color="primary">
-      <Router>
-      <Link to="/visit">Visit</Link>
-      <Switch> 
-              
-              <Route exact path='/visit' component={Nee}></Route> 
-            </Switch> 
-      </Router>
-      
-    </Button>
+     
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,

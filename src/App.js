@@ -1,6 +1,4 @@
 import './App.css';
-import Dum from './beginner';
-import Begin from './begin'
 
 import {
   BrowserRouter as Router,
@@ -13,22 +11,25 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Login from './Components/Authentication/Login';
 import Signup from './Components/Authentication/Signup';
+import ChooseTrack from './Components/LandingLoggedIn/ChooseTrack';
+import Beginner from './Components/Beginner/begin';
 
 // ..
 AOS.init();
 function App() {
   return (
     <div className="App">
-      <Begin />
-     {/*<Router>
+      
+     <Router>
         <Switch>
           <Route path='/' exact component={Home}/>
           <Route path='/signup' component={Signup}/>
           <Route path='/login' component={Login}/>
-          
+          <Route path='/landingloggedin' component={ChooseTrack} />     
+          <Route path="/beginner" component={Beginner} /> 
 
         </Switch>
-     </Router>*/}
+     </Router>
   
    
       
