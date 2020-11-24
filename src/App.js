@@ -13,7 +13,9 @@ import Login from './Components/Authentication/Login';
 import Signup from './Components/Authentication/Signup';
 import ChooseTrack from './Components/LandingLoggedIn/ChooseTrack';
 import Beginner from './Components/Beginner/begin';
-
+import Caru from './Components/LandingLoggedIn/carousel'
+import Graph from './Components/LandingLoggedIn/graph'
+import Trees from './Components/LandingLoggedIn/trees'
 // ..
 AOS.init();
 function App() {
@@ -26,8 +28,11 @@ function App() {
           <Route path='/signup' component={Signup}/>
           <Route path='/login' component={Login}/>
           <Route path='/landingloggedin' component={ChooseTrack} />     
-          <Route path="/beginner" component={Beginner} /> 
-
+          <Route path="/beginner" component={Beginner} />
+          <Route path="/be" component={Caru} />
+          <Route path="/graph" component={Graph} />  
+          <Route path="/treee" component={Trees} />  
+          
         </Switch>
      </Router>
   

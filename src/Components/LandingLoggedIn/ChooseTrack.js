@@ -28,7 +28,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: "100vw",
+    width: "80vw",
     height: "100vh",
     
     paddingTop: theme.spacing(9),
@@ -67,10 +67,10 @@ export default function ChooseTrack() {
   return (
     
     <div className="ssss">
-    <Appbar />
+   
     <section1Track />
     <Container className={classes.root} >
-    <Grid container spacing={4} >
+    <Grid container spacing={8} >
     <Grid item sm={4}  >
     <Link to="/beginner"><Card className="card1">
       
@@ -109,7 +109,9 @@ export default function ChooseTrack() {
           </Typography>
           
         </CardContent>
+        
       </Collapse>
+      
     </Card></Link>
     </Grid>
     <Grid item sm={4}>
@@ -195,7 +197,7 @@ export default function ChooseTrack() {
     </Grid>
     </Grid>
     </Container>
-    <div className="foot"><Footer /></div>
+    
     </div>
   );
 }
