@@ -89,28 +89,9 @@ export default function ChooseTrack() {
       <CardActions disableSpacing>
         
       
-        <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
-          })}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton>
-      </CardActions>
-      <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
-          
-          <Typography paragraph>
-            This is the section for some basic practice problems which are ordered topic-wise
-            so that the new students can have a clear cut view over the foremost topics. 
-          </Typography>
-          
-        </CardContent>
         
-      </Collapse>
+      </CardActions>
+      
       
     </Card></Link>
     </Grid>
@@ -132,27 +113,9 @@ export default function ChooseTrack() {
       <CardActions disableSpacing>
         
      
-        <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
-          })}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton>
+        
       </CardActions>
-      <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
-          
-          <Typography paragraph>
-            This is the section for some basic practice problems which are ordered topic-wise
-            so that the new students can have a clear cut view over the foremost topics. 
-          </Typography>
-          
-        </CardContent>
-      </Collapse>
+      
     </Card>
     </Grid>
     <Grid item sm={4}>
@@ -173,26 +136,9 @@ export default function ChooseTrack() {
       <CardActions disableSpacing>
         
      
-        <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
-          })}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton>
+        
       </CardActions>
-      <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
-          
-          <Typography paragraph>
-            It is the advanced section where problems are recommended according to
-          </Typography>
-          
-        </CardContent>
-      </Collapse>
+      
     </Card>
     </Grid>
     </Grid>

@@ -27,9 +27,8 @@ function App() {
           <Route path='/' exact component={Home}/>
           <Route path='/signup' component={Signup}/>
           <Route path='/login' component={Login}/>
-          <Route path='/landingloggedin' component={ChooseTrack} />     
+          <Route path='/landingloggedin' component={Caru} />     
           <Route path="/beginner" component={Beginner} />
-          <Route path="/be" component={Caru} />
           <Route path="/graph" component={Graph} />  
           <Route path="/treee" component={Trees} />  
           
