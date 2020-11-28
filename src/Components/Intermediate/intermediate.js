@@ -58,17 +58,18 @@ export default function Intermediate() {
   const [level3,setlevel3] = useState(['']);
   const [level3index,setlevel3index] = useState(['']);
   const [level3cid,setlevel3cid] = useState(['']);
-
+  const username = localStorage.getItem("username")
+  console.log(username);
   useEffect(async () => {
     
         await axios({
             method: 'post',
-            url: 'http://127.0.0.1:8000/questions/api/intermediate/',
+            url: 'https://blackhatsr.herokuapp.com/questions/api/intermediate/',
             headers: {
                 'Content-Type': 'application/json'
                 }, 
             data: {
-             handle:'rattle_coder'
+             handle:username
             }
           }).then(response=>{
               console.log(response.data);
@@ -152,7 +153,7 @@ export default function Intermediate() {
                <StyledTableCell component="th" scope="row">
                  {item.name}
                </StyledTableCell> 
-               <StyledTableCell align="right"><a href={`https://codeforces.com/problemset/problem/${item.cid}/${item.category}`}><button className="bt3">Solve</button></a></StyledTableCell>
+               <StyledTableCell align="right"><a href={`https://codeforces.com/problemset/problem/${item.cid}/${item.category}`} target="_blank"><button className="bt3">Solve</button></a></StyledTableCell>
                </StyledTableRow>
               </div>
           ):null}
@@ -182,7 +183,7 @@ export default function Intermediate() {
                <StyledTableCell component="th" scope="row">
                  {item2.name}
                </StyledTableCell> 
-               <StyledTableCell align="right"><a href={`https://codeforces.com/problemset/problem/${item2.cid}/${item2.category}`}><button className="bt3">Solve</button></a></StyledTableCell>
+               <StyledTableCell align="right"><a href={`https://codeforces.com/problemset/problem/${item2.cid}/${item2.category}`} target="_blank"><button className="bt3">Solve</button></a></StyledTableCell>
                </StyledTableRow>
               </div>
           ):null}

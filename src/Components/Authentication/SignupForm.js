@@ -39,7 +39,7 @@ export default function SignupForm() {
         <div>
     <Form className="form-fields">
          <FormGroup row>
-            <Label for="exampleEmail">UserName</Label>
+            <Label for="exampleEmail">Codeforces handle</Label>
             <Input  onChange={e => setusername(e.target.value)}  type="text" name="username" id="exampleUsername" placeholder="username" />
         </FormGroup>
         <FormGroup row>

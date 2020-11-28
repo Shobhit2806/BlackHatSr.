@@ -21,9 +21,9 @@ export default function Temp() {
                 <Box mt={2}>
                   <Container>
                     <Typography component="p" variant="body1" align="left">
-                     <span className="cn1" data-aos="zoom-in-up">Intermediate !</span>
+                     <span className="cn1" data-aos="zoom-in-up">Advanced !</span>
                      <br/>
-                     <span className="cnn1">Welcome to the Intermediate section where you will be able <br/><span className="cnn1">find topic wise important problems related to DSA</span> </span>
+                     <span className="cnn1">Welcome to the Advanced section where you will be able <br/><span className="cnn1">find topic wise important problems related to DSA</span> </span>
                     </Typography>
                   </Container>
                 </Box>

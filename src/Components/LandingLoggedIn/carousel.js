@@ -6,7 +6,7 @@ import Trees from "../../assets/images/tree.png";
 import Graph2 from "../../assets/images/graph.jpg";
 import Dsa from "../../assets/images/dsa.jpeg";
 import './carousel.css'
-import Appbar from '../common/Navbar'
+import AppbarLogout from '../common/NavbarLogout'
 import Footer from '../Landing-Page/Footer'
 import ChooseTrack from './ChooseTrack'
 
@@ -14,7 +14,7 @@ export default function Caru(){
 return(
    <div className="carou">
    <div>
-   <Appbar />
+   <AppbarLogout />
    </div>
    <Carousel>
     <Carousel.Item>

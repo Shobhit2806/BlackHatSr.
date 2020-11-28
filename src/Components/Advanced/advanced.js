@@ -50,18 +50,18 @@ export default function Advanced() {
   const [level1,setlevel1] = useState(['']);
   const [level1index,setlevel1index] = useState(['']);
   const [level1cid,setlevel1cid] = useState(['']);
-
+  const username = localStorage.getItem("username")
   
   useEffect(async () => {
     
         await axios({
             method: 'post',
-            url: 'http://127.0.0.1:8000/questions/api/advance/',
+            url: 'https://blackhatsr.herokuapp.com/questions/api/advance/',
             headers: {
                 'Content-Type': 'application/json'
                 }, 
             data: {
-             handle:'rattle_coder'
+             handle:username
             }
           }).then(response=>{
               console.log(response.data);

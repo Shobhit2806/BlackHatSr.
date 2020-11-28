@@ -2,10 +2,13 @@ import React,{useState} from 'react'
 import { Col, Row, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import './login.css'
 import axios from 'axios';
+import {Redirect} from 'react-router-dom'
+
 
 export default function LoginForm() {
     const [username,setusername] = useState('');
     const [password,setpassword] = useState('');
+    const [isLoggedIn,setisLoggedIn] =useState(false)
     const handleLogin = e =>{
         e.preventDefault();
         axios({
@@ -21,12 +24,22 @@ export default function LoginForm() {
             }
           }).then(response=>{
               console.log(response);
+              localStorage.setItem("token",response.data.token);
+              localStorage.setItem("username",response.data.username);
+              setisLoggedIn(true);
+          }).catch(error=>{
+              console.log(error);
           });
           
       
     }
-
+    if(isLoggedIn)
+    {
+      return <Redirect to = "/landingloggedin" /> 
+    }
     return (
+       
+        
         <div>
     <Form className="form-fields">
         <FormGroup row>
