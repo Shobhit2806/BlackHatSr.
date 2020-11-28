@@ -13,6 +13,8 @@ import Login from './Components/Authentication/Login';
 import Signup from './Components/Authentication/Signup';
 import ChooseTrack from './Components/LandingLoggedIn/ChooseTrack';
 import Beginner from './Components/Beginner/begin';
+import Intermediate from './Components/Intermediate/intermediate';
+import Advanced from './Components/Advanced/advanced';
 
 // ..
 AOS.init();
@@ -27,6 +29,8 @@ function App() {
           <Route path='/login' component={Login}/>
           <Route path='/landingloggedin' component={ChooseTrack} />     
           <Route path="/beginner" component={Beginner} /> 
+          <Route path="/intermediate" component={Intermediate}/> 
+          <Route path="/advanced" component={Advanced}/> 
 
         </Switch>
      </Router>
