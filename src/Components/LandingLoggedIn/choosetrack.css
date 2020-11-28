@@ -1,9 +1,10 @@
 .ssss{
-    background-color : #0C2B5B;
+    background-color : skyblue;
 }
 
 .card1:hover{
     transform:scale(1.1)
+    
 ;}
 .card2:hover{
     transform:scale(1.1)

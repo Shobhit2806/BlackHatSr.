@@ -28,7 +28,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: "100vw",
+    width: "80vw",
     height: "100vh",
     
     paddingTop: theme.spacing(9),
@@ -67,10 +67,10 @@ export default function ChooseTrack() {
   return (
     
     <div className="ssss">
-    <Appbar />
+   
     <section1Track />
     <Container className={classes.root} >
-    <Grid container spacing={4} >
+    <Grid container spacing={8} >
     <Grid item sm={4}  >
     <Link to="/beginner"><Card className="card1">
       
@@ -89,31 +89,14 @@ export default function ChooseTrack() {
       <CardActions disableSpacing>
         
       
-        <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
-          })}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton>
+        
       </CardActions>
-      <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
-          
-          <Typography paragraph>
-            This is the section for some basic practice problems which are ordered topic-wise
-            so that the new students can have a clear cut view over the foremost topics. 
-          </Typography>
-          
-        </CardContent>
-      </Collapse>
+      
+      
     </Card></Link>
     </Grid>
     <Grid item sm={4}>
-    <Card className="card2">
+    <Link to="/intermediate"> <Card className="card2">
       
       <CardMedia
       component="img"
@@ -130,31 +113,13 @@ export default function ChooseTrack() {
       <CardActions disableSpacing>
         
      
-        <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
-          })}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton>
+        
       </CardActions>
-      <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
-          
-          <Typography paragraph>
-            This is the section for some basic practice problems which are ordered topic-wise
-            so that the new students can have a clear cut view over the foremost topics. 
-          </Typography>
-          
-        </CardContent>
-      </Collapse>
-    </Card>
+      
+    </Card></Link>
     </Grid>
     <Grid item sm={4}>
-    <Card className="card3">
+    <Link to="/advanced"> <Card className="card3">
       
       <CardMedia
       component="img"
@@ -171,31 +136,14 @@ export default function ChooseTrack() {
       <CardActions disableSpacing>
         
      
-        <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
-          })}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton>
+        
       </CardActions>
-      <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
-          
-          <Typography paragraph>
-            It is the advanced section where problems are recommended according to
-          </Typography>
-          
-        </CardContent>
-      </Collapse>
-    </Card>
+      
+    </Card></Link>
     </Grid>
     </Grid>
     </Container>
-    <div className="foot"><Footer /></div>
+    
     </div>
   );
 }
