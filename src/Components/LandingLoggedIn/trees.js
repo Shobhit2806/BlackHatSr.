@@ -15,6 +15,7 @@ import Grid from "@material-ui/core/Grid";
 import './graph.css'
 import Appbar from '../common/Navbar'
 import Footer from '../Landing-Page/Footer'
+import AppbarLogout from '../common/NavbarLogout'
 
 
 const StyledTableCell = withStyles((theme) => ({
@@ -40,12 +41,12 @@ const StyledTableCell = withStyles((theme) => ({
   }
   
   const rows = [
-    createData('Search & Insertion', <a href="https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/"><button className="btt3">Visit</button></a>),
-    createData('Delete', <a href="https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/"><button className="btt3">Visit</button></a>),
-    createData('Tree Traversals (Inorder, Preorder and Postorder)', <a href="https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/"><button className="btt3">Visit</button></a>),
-    createData('Minimum Value Node', <a href="https://www.geeksforgeeks.org/find-the-minimum-element-in-a-binary-search-tree/"><button className="btt3">Visit</button></a>),
-    createData('Check if a Tree is BST', <a href="https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/"><button className="btt3">Visit</button></a> ),
-    createData('Lowest Common Ancestor',<a href="https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/"><button className="btt3">Visit</button></a>),
+    createData('Search & Insertion', <a target="_blank" href="https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/"><button className="btt3">Visit</button></a>),
+    createData('Delete', <a target="_blank" href="https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/"><button className="btt3">Visit</button></a>),
+    createData('Tree Traversals (Inorder, Preorder and Postorder)', <a target="_blank" href="https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/"><button className="btt3">Visit</button></a>),
+    createData('Minimum Value Node', <a target="_blank" href="https://www.geeksforgeeks.org/find-the-minimum-element-in-a-binary-search-tree/"><button className="btt3">Visit</button></a>),
+    createData('Check if a Tree is BST', <a target="_blank" href="https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/"><button className="btt3">Visit</button></a> ),
+    createData('Lowest Common Ancestor',<a target="_blank" href="https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/"><button className="btt3">Visit</button></a>),
     
   ];
 
@@ -62,7 +63,7 @@ export default function Trees(){
     const classes = useStyles();
     return(
        <div className="Graphh">
-       <div><Appbar /></div>
+       <div><AppbarLogout /></div>
        <div className="section2-main">
        <Box className="mt-9">
          <Grid container spacing={2}>

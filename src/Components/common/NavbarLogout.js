@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
 import './Navbar.css'
+import './nblogout.css'
 //import logo from './images/logo.svg'
 
 
@@ -24,7 +25,7 @@ function AppbarLogout () {
      
     </Nav>
     <Nav>
-      <Nav.Link href="/login"><button onClick={handleLogout} className="navbar-content">Logout</button></Nav.Link>
+      <Nav.Link href="/login"><button onClick={handleLogout} className="lgb"><b>Logout</b></button></Nav.Link>
      
       
     </Nav>

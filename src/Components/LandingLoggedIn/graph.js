@@ -15,6 +15,7 @@ import Grid from "@material-ui/core/Grid";
 import './graph.css'
 import Appbar from '../common/Navbar'
 import Footer from '../Landing-Page/Footer'
+import AppbarLogout from '../common/NavbarLogout'
 
 
 const StyledTableCell = withStyles((theme) => ({
@@ -40,12 +41,12 @@ const StyledTableCell = withStyles((theme) => ({
   }
   
   const rows = [
-    createData('BFS', <a href="https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/"><button className="btt3">Visit</button></a>),
-    createData('DFS', <a href="https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/"><button className="btt3">Visit</button></a>),
-    createData('Minimum Spanning Tree', <a href="https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/"><button className="btt3">Visit</button></a>),
-    createData('Topological Sort', <a href="https://www.geeksforgeeks.org/topological-sorting/"><button className="btt3">Visit</button></a>),
-    createData('Connectivity', <a href="https://www.geeksforgeeks.org/find-if-there-is-a-path-between-two-vertices-in-a-given-graph/"><button className="btt3">Visit</button></a> ),
-    createData('Shortest Path',<a href="https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/"><button className="btt3">Visit</button></a>),
+    createData('BFS', <a target="_blank" href="https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/"><button className="btt3">Visit</button></a>),
+    createData('DFS', <a target="_blank" href="https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/"><button className="btt3">Visit</button></a>),
+    createData('Minimum Spanning Tree', <a target="_blank" href="https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/"><button className="btt3">Visit</button></a>),
+    createData('Topological Sort', <a target="_blank" href="https://www.geeksforgeeks.org/topological-sorting/"><button className="btt3">Visit</button></a>),
+    createData('Connectivity', <a target="_blank" href="https://www.geeksforgeeks.org/find-if-there-is-a-path-between-two-vertices-in-a-given-graph/"><button className="btt3">Visit</button></a> ),
+    createData('Shortest Path',<a target="_blank" href="https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/"><button className="btt3">Visit</button></a>),
     
   ];
 
@@ -62,7 +63,7 @@ export default function Graph(){
     const classes = useStyles();
     return(
        <div className="Graphh">
-       <div><Appbar /></div>
+       <div><AppbarLogout /></div>
        <div className="section2-main">
        <Box className="mt-9">
          <Grid container spacing={2}>

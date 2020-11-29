@@ -12,6 +12,7 @@ import Paper from '@material-ui/core/Paper';
 import './intermediate.css'
 import Temp from './temp'
 import axios from 'axios';
+import AppbarLogout from '../common/NavbarLogout'
 
 
 const StyledTableCell = withStyles((theme) => ({
@@ -116,7 +117,7 @@ export default function Intermediate() {
   console.log(items);
   return (
       <div className="tblc">
-      <div className="apbr"><Appbar /></div><br/> 
+      <div className="apbr"><AppbarLogout /></div><br/> 
       <div>
       <Temp />
       </div>
