@@ -104,7 +104,7 @@ export default function Advanced() {
         <TableHead>
           <TableRow>
             <StyledTableCell>Problems</StyledTableCell>
-            <StyledTableCell align="right">Action</StyledTableCell>
+            <StyledTableCell align="right"><span className="act">Action</span></StyledTableCell>
             
           </TableRow>
         </TableHead>
@@ -112,7 +112,7 @@ export default function Advanced() {
 
        
           {items.length?(items).map((item) => 
-              <div>
+              <div className="whole">
                 
                 <StyledTableRow key={item}>
                <StyledTableCell component="th" scope="row">
