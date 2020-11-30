@@ -71,8 +71,7 @@ const Section3 = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat. Aliquam eget
-            maximus est, id dignissim quam.
+            Basic Topic wise Problems
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -89,8 +88,7 @@ const Section3 = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Donec placerat, lectus sed mattis semper, neque lectus feugiat lectus, varius pulvinar
-            diam eros in elit. Pellentesque convallis laoreet laoreet.
+            Problems based on your weak topics.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -107,8 +105,7 @@ const Section3 = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
+            Some good level Competitive Programming Problems.
           </Typography>
         </AccordionDetails>
       </Accordion>

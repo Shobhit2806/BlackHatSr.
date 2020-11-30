@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
-import section2img from "../../assets/images/blch.png";
+import section2img from "../../assets/images/adv.png";
 import Box from "@material-ui/core/Box";
 import { Typography } from "@material-ui/core";
 import './temp.css'
@@ -23,7 +23,7 @@ export default function Temp() {
                     <Typography component="p" variant="body1" align="left">
                      <span className="cn1" data-aos="zoom-in-up">Advanced !</span>
                      <br/>
-                     <span className="cnn1">Welcome to the Advanced section where you will be able <br/><span className="cnn1">find topic wise important problems related to DSA</span> </span>
+                     <span className="cnn1">Welcome to the Advanced section where you will be able <br/><span className="cnn1">to find some high level problems related to Competitive <span className="cnn1">Programming</span> </span> </span>
                     </Typography>
                   </Container>
                 </Box>
