@@ -60,7 +60,7 @@
 .Array{
     background-color: rgb(14, 165, 165);
     margin-left: 80px;
-    margin-right: 1070px;
+    margin-right: 840px;
     font-size: 30px;
     text-align: left;
     border-radius: 8px;
@@ -127,6 +127,7 @@
   }
   .bt3 {
     background-color: #4CAF50; 
+    margin-left: 900px;
     
     color: white;
     padding: 15px 32px;
@@ -176,7 +177,6 @@
     background-color:blue; 
     color: white;
   }
-
-
+  
   /*    /////////////////////////////////////////    */
  
